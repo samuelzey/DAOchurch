@@ -1130,6 +1130,7 @@ const contract = new web3.eth.Contract([
 		"type": "function"
 	}
 ],'0x4E3Bc0bB0948600e70B741B8701EBA1a7E69Be5b')
+<<<<<<< HEAD
 const contract_vote = new web3.eth.Contract([
 	{
 		"anonymous": false,
@@ -1695,6 +1696,12 @@ const eventList = {}
 const onloadEvent = []
 
 window.c = contract_vote;
+=======
+const eventList = {}
+const onloadEvent = []
+
+window.c = contract;
+>>>>>>> e187c99f2f69ed236cbc6f2810cf149f2d31b045
 
 window.onload = () => {
 	onloadEvent.map((v) => v())
