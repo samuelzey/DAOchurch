@@ -1,0 +1,137 @@
+.total {
+  height: 100%;
+}
+.first {
+  margin: -50px -50px 0 -37px;
+  padding: 0;
+  background: none;
+  position: absolute;
+}
+
+.first .line-left {
+  height: 642px;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 25vw;
+  background-color: #ffffff33;
+}
+
+.first .line-left-2 {
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 642px;
+  left: 35vw;
+  background-color: #ffffff33;
+}
+
+.first .line-left .line-white {
+  height: 100px;
+  width: 1px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.first .line-right {
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 65vw;
+  background-color: #ffffff33;
+}
+
+.first .line-right .line-white {
+  height: 133px;
+  width: 1px;
+  position: absolute;
+  top: 323px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.first .line-bottom {
+  height: 1px;
+  width: 60vw;
+  position: absolute;
+  top: 642px;
+  left: 0;
+  background-color: #ffffff33;
+}
+
+.first .line-bottom-2 {
+  height: 1px;
+  width: 60vw;
+  position: absolute;
+  top: 1400px;
+  left: 0;
+  background-color: #ffffff33;
+}
+
+.first .line-bottom .line-white {
+  height: 1px;
+  width: 195px;
+  position: absolute;
+  top: 0;
+  left: 204px;
+  background-color: #ffffff;
+}
+
+.first .line-left-bottom {
+  height: 239px;
+  width: 1px;
+  position: absolute;
+  top: 843px;
+  left: 35vw;
+  background-color: #ffffff33;
+}
+
+.first .line-center-bottom {
+  height: 300px;
+  width: 1px;
+  position: absolute;
+  top: 1000px;
+  left: 50vw;
+  background-color: #ffffff33;
+}
+.first .center-bottom {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 950px;
+  left: 50vw;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+.first .center-bottom i {
+  display: block;
+  margin-left: -25px;
+  border: 1px solid #ffffff33;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.first .line-right-center {
+  height: 1px;
+  width: 35vw;
+  position: absolute;
+  top: 257px;
+  left: 65vw;
+  background-color: #ffffff33;
+}
+
+.first .line-right-center-2 {
+  height: 1px;
+  width: 35vw;
+  position: absolute;
+  top: 1300px;
+  left: 65vw;
+  background-color: #ffffff33;
+}

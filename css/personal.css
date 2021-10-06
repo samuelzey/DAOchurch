@@ -1,0 +1,161 @@
+/* --------------------avatar-------------------------- */
+.avatar {
+  position: relative;
+}
+.avatar .right {
+  display: inline-block;
+  margin-left: 30px;
+  height: 186px;
+  position: absolute;
+  top: 0;
+  padding-top: 50px;
+}
+.avatar .name {
+  font-size: 50px;
+}
+.avatar .code {
+  font-size: 14px;
+  color: #7878ef;
+}
+
+/* --------------------daos-------------------------- */
+main .list-container .daos-list {
+  font-size: 18px;
+}
+main .list-container .daos-list li {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+main .list-container .daos-list li:last-child {
+  padding-bottom: 0;
+}
+main .list-container .daos-list h2 {
+  margin: 10px;
+  margin-left: 0;
+}
+
+main .list-container .daos-list .main-content {
+  font-size: 16px;
+  margin: 0;
+}
+
+main .list-container .daos-list .title {
+  padding: 20px 0;
+}
+
+main .list-container .daos-list .underline {
+  border-bottom: 1px solid #707070;
+  margin-bottom: 10px;
+}
+
+main .list-container .daos-list .row .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 10px; */
+  background-color: #040534;
+  border-radius: 10px;
+}
+
+main .list-container .daos-list > li > .row > .col {
+  margin: 10px;
+}
+
+main .list-container .daos-list .row.all {
+  width: 100%;
+}
+
+main .list-container .daos-list .body {
+  margin-bottom: 20px;
+}
+
+main .list-container .daos-list .btn {
+  /* height: 42px; */
+  /* width: 125px; */
+  width: 100%;
+  height: 36px;
+  line-height: 24px;
+  border-radius: 21px;
+  background-color: #00ffb9;
+  color: black;
+  border: none;
+  font-size: 12px;
+}
+/* --------------------bounties-------------------------- */
+main .list-container .bounties-list {
+  font-size: 18px;
+}
+main .list-container .bounties-list li {
+  background-color: #040534;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+main .list-container .bounties-list h2 {
+  margin: 10px;
+  margin-left: 0;
+}
+
+main .list-container .bounties-list .main-content .num {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+main .list-container .bounties-list .main-content .dct {
+  font-size: 18px;
+}
+main .list-container .bounties-list .more {
+  font-size: 14px;
+}
+
+main .list-container .bounties-list .col {
+  display: flex;
+  align-items: center;
+}
+
+main .list-container .bounties-list .btn {
+  height: 42px;
+  width: 125px;
+  line-height: 28px;
+  border-radius: 21px;
+  background-color: #00ffb9;
+  color: black;
+  border: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------votings-------------------------- */
+main .list-container .votings-list {
+  font-size: 18px;
+}
+main .list-container .votings-list li {
+  background-color: #040534;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+main .list-container .votings-list h2 {
+  margin: 10px;
+  margin-left: 0;
+}
+
+main .list-container .votings-list .main-content {
+  font-weight: normal;
+  font-size: 18px;
+}
+main .list-container .votings-list .more {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}

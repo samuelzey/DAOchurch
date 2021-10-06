@@ -1,0 +1,275 @@
+/* --------------------dao-info-------------------------- */
+
+.container .dao-info {
+  background-color: #7878ef;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.container .dao-info .nav {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.container .dao-info .nav .finance {
+  height: 42px;
+  background-color: #040534;
+  width: 85px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.container .dao-info .nav .title {
+  height: 45px;
+  line-height: 45px;
+  margin-left: 20px;
+}
+
+.container .dao-info .label {
+  color: white;
+  margin-left: 20px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+
+  border-bottom: 1px solid #ffffff;
+}
+.container .dao-info .num {
+  color: white;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  height: 50px;
+}
+.container .dao-info p.num span {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container .dao-info button {
+  width: 100px;
+  height: 36px;
+  border-radius: 21px;
+  background-color: #00ffb9;
+  color: black;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  margin-right: 30px;
+}
+
+.container .dao-info.personal {
+  width: 100%;
+}
+
+.container .dao-info.personal .left {
+  width: 80px;
+  border-right: 1px solid #ffffff16;
+}
+
+.container .dao-info.personal .left .label {
+  margin-bottom: 0;
+  border-bottom: none;
+  margin-left: 0;
+}
+
+.container .dao-info.personal .left .badge-dark {
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.container .dao-info.personal .title {
+  margin-bottom: 0;
+  height: 25px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.container .dao-info.personal .num {
+  margin: 20px;
+}
+
+.container .dao-info.personal .num-1 {
+  border-top: 1px solid #ffffff16;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.container .dao-info .progress {
+  width: 100%;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #040534;
+  margin-left: 10px;
+}
+
+.container .dao-info .progress .progress-bar {
+  border-radius: 6px;
+  background-color: #00ffb9;
+}
+
+.container .dao-info .progress-span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* --------------------votings-------------------------- */
+main .list-container .votings-list {
+  font-size: 18px;
+}
+main .list-container .votings-list li {
+  background-color: #040534;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+main .list-container .votings-list li .finance {
+  height: 45px;
+  background-color: #7878ef;
+  width: 170px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+main .list-container .votings-list h2 {
+  margin: 10px;
+  margin-left: 0;
+}
+
+main .list-container .votings-list p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+main .list-container .votings-list .main-content {
+  font-weight: normal;
+  font-size: 18px;
+}
+main .list-container .votings-list .more {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+main .list-container .votings-list button {
+  width: 100px;
+  height: 36px;
+  border-radius: 21px;
+  background-color: #00ffb9;
+  color: black;
+  border: none;
+  font-size: 12px;
+}
+
+main .list-container .line-right {
+  border-right: 1px solid #ffffff16;
+}
+
+main .list-container .votings-list .content-center {
+  text-align: center;
+}
+
+main .list-container .bounties-list p {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+main .list-container .bounties-list .nums {
+  font-size: 18px;
+}
+
+main .list-container .bounties-list .nums .number {
+  font-size: 25px;
+}
+
+main .list-container .bounties-list h2 span {
+  margin-left: 20px;
+}
+
+/* --------------------progress-------------------------- */
+
+main .progress {
+  height: 12px;
+  border-radius: 6px;
+  background-color: #7878ef;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+main .progress .progress-bar {
+  border-radius: 6px;
+  background-color: #00ffb9;
+}
+
+main .progress-span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* --------------------bounties-------------------------- */
+main .list-container .bounties-list {
+  font-size: 18px;
+}
+main .list-container .bounties-list li {
+  background-color: #040534;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+main .list-container .bounties-list h2 {
+  margin: 10px;
+  margin-left: 0;
+}
+
+main .list-container .bounties-list .main-content .num {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+main .list-container .bounties-list .main-content .dct {
+  font-size: 18px;
+}
+main .list-container .bounties-list .more {
+  font-size: 14px;
+}
+
+main .list-container .bounties-list .col {
+  display: flex;
+  align-items: center;
+}
+
+main .list-container .bounties-list button {
+  height: 42px;
+  width: 125px;
+  border-radius: 21px;
+  background-color: #00ffb9;
+  color: black;
+  border: none;
+}
