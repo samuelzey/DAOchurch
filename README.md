@@ -26,4 +26,5 @@ Proof of contribution(Bounty):
 5. See the bounty contents/submitted work on dao.chruch
 
 ------
-We are currently encounterd some problem deploying the contract on Aggron, we will fix it later.
+Running react development server through the start script in package.json can run the entire DAPP properly.
+For the web pages deployed on the server, we encountered some packaging problems of Polyjuice / Web3 and other packages, the files built by webpack can not operate normally. Therefore, we have deployed the web pages that can only call contracts on the production server, that is, only display contract data. We build cli tools to users to enable users to operate contracts, that is, send transactions to contracts
