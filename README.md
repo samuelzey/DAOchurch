@@ -25,6 +25,24 @@ Proof of contribution(Bounty):
 4. Confirm one's work and pay by smart contract
 5. See the bounty contents/submitted work on dao.chruch
 
+## Build DAOchurch
+
+
+
+```
+$npm install
+```
+
+```
+$npm run build
+```
+
+or dev
+
+```
+$npm run start
+```
+
 ------
 Running react development server through the start script in package.json can run the entire DAPP properly.
-For the web pages deployed on the server, we encountered some packaging problems of Polyjuice / Web3 and other packages, the files built by webpack can not operate normally. Therefore, we have deployed the web pages that can only call contracts on the production server, that is, only display contract data. We build cli tools to users to enable users to operate contracts, that is, send transactions to contracts
+For the web pages deployed on the server, we encountered some packaging problems, the files built by webpack can not operate normally. Therefore, we have deployed the web pages that can only call contracts on the production server, that is, only display contract data. We build cli tools to users to enable users to operate contracts, that is, send transactions to contracts
