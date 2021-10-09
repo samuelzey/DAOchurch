@@ -1,21 +1,38 @@
 {
-  "name": "daochurch",
-  "version": "1.0.0",
-  "description": "",
-  "main": "function_utl.js",
+  "name": "fox",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@polyjuice-provider/web3": "0.0.1-rc11",
-    "nervos-godwoken-integration": "0.0.8",
+    "cra-template": "1.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
     "web3": "^1.6.0"
   },
-  "devDependencies": {
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup function_utl_src.js --file function_utl.js --format iife"
+    "start": "../fox/node_modules/.bin/react-scripts start",
+    "build": "../fox/node_modules/.bin/react-scripts build",
+    "test": "../fox/node_modules/.bin/react-scripts test",
+    "eject": "../fox/node_modules/.bin/react-scripts eject"
   },
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
