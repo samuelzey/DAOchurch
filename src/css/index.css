@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin: 50px 50px 0 37px;
+}
+
+.jumbotron {
+  background-color: white;
+  border-radius: 0;
+  position: relative;
+  margin: 0;
+}
+
+.jumbotron h1 {
+  color: #7878ef;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron .bg {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+}
+
+.jumbotron .flex {
+  width: 100%;
+  height: 638px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jumbotron .bottom-text {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.first {
+  background: none;
+  height: 982px;
+  position: unset;
+}
+
+.first .line-left {
+  height: 841px;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 18vw;
+  background-color: #ffffff33;
+}
+
+.first .line-left .line-white {
+  height: 196px;
+  width: 1px;
+  position: absolute;
+  top: 146px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.first .line-right {
+  height: 1080px;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 80vw;
+  background-color: #ffffff33;
+}
+
+.first .line-right .line-white {
+  height: 133px;
+  width: 1px;
+  position: absolute;
+  top: 523px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.first .line-bottom {
+  height: 1px;
+  width: 80vw;
+  position: absolute;
+  top: 842px;
+  left: 0;
+  background-color: #ffffff33;
+}
+
+.first .line-bottom .line-white {
+  height: 1px;
+  width: 195px;
+  position: absolute;
+  top: 0;
+  left: 184px;
+  background-color: #ffffff;
+}
+
+.first .line-left-bottom {
+  height: 239px;
+  width: 1px;
+  position: absolute;
+  top: 843px;
+  left: 30vw;
+  background-color: #ffffff33;
+}
+
+.first .line-center-bottom {
+  height: 300px;
+  width: 1px;
+  position: absolute;
+  top: 1000px;
+  left: 50vw;
+  background-color: #ffffff33;
+}
+.first .center-bottom {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 950px;
+  left: 50vw;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+.first .center-bottom i {
+  display: block;
+  margin-left: -25px;
+  border: 1px solid #ffffff33;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.first .line-right-center {
+  height: 1px;
+  width: 20vw;
+  position: absolute;
+  top: 457px;
+  left: 80vw;
+  background-color: #ffffff33;
+}
+
+.first .content {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.first .content img {
+  height: 242px;
+}
+
+.first .content h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.first .content p {
+  font-size: 14px;
+}
+
+.first .bottom-btn {
+  width: 100vw;
+  position: absolute;
+  top: 816px;
+  left: 0;
+  text-align: center;
+}
+
+.first .bottom-btn a {
+  display: inline-block;
+  width: 240px;
+  height: 52px;
+  line-height: 32px;
+  border-radius: 26px;
+  background-color: #00ffb9;
+}
+
+.first .icons {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  line-height: 50px;
+  left: 50px;
+  bottom: 0;
+}
+
+.first .icons i {
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ffffff33;
+  line-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.first .right-bottom {
+  position: absolute;
+  right: 100px;
+  bottom: -120px;
+  font-size: 14px;
+}
+
+.jumbotron2 {
+  background: none;
+  height: 1171px;
+  position: relative;
+  overflow: visible;
+}
+
+.jumbotron2 .bg2 {
+  position: absolute;
+  left: 5vw;
+  bottom: -85px;
+  z-index: 99;
+}
+
+.jumbotron2 .line {
+  width: 291px;
+  height: 2px;
+  background-color: white;
+  position: relative;
+  float: left;
+  left: -30px;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.jumbotron2 h1.title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.jumbotron2 div.right-text {
+  color: white;
+  position: absolute;
+  top: 20vh;
+  right: 15vw;
+  width: 25vw;
+  font-size: 16px;
+}
+
+.jumbotron2 div.right-text p {
+  margin-bottom: 80px;
+}
+
+.jumbotron3 {
+  position: relative;
+  overflow: visible;
+}
+
+.jumbotron3 .line {
+  width: 291px;
+  height: 2px;
+  background-color: #7878ef;
+  position: relative;
+  float: left;
+  left: -30px;
+  top: 80px;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.jumbotron3 h1.title {
+  color: #7878ef;
+  font-size: 30px;
+  position: relative;
+  margin-top: 80px;
+  left: 300px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.jumbotron3 div.main-content {
+  color: white;
+  font-size: 16px;
+  margin: 100px auto;
+  width: 80%;
+}
+
+.jumbotron3 div.main-content .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jumbotron3 div.main-content img {
+  height: 78px;
+}
+.jumbotron3 div.main-content h2 {
+  color: #00ffb9;
+  font-size: 30px;
+  text-align: left;
+}
+.jumbotron3 div.main-content p {
+  color: #7878ef;
+  width: 300px;
+}
