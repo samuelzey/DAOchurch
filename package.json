@@ -1,0 +1,21 @@
+{
+  "name": "daochurch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function_utl.js",
+  "dependencies": {
+    "@polyjuice-provider/web3": "0.0.1-rc11",
+    "nervos-godwoken-integration": "0.0.8",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup function_utl_src.js --file function_utl.js --format iife"
+  },
+  "author": "",
+  "license": "ISC"
+}

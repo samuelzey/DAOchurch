@@ -190,7 +190,6 @@
             <div class="col">
                 <h2>VOTINGS</h2>
                 <div class="list-container">
-<<<<<<< HEAD
                     <ul class="votings-list" id="v-list">
 <!--                        <li>-->
 <!--                            <div class="finance">Finance</div>-->
@@ -279,96 +278,6 @@
 <!--                                </div>-->
 <!--                            </div>-->
 <!--                        </li>-->
-=======
-                    <ul class="votings-list">
-                        <li>
-                            <div class="finance">Finance</div>
-                            <div class="row">
-                                <div class="col-8 line-right">
-                                    <p>Claim 5000 DCT for Samuel's work this</p>
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <div class="progress">
-                                                <div
-                                                        class="progress-bar"
-                                                        role="progressbar"
-                                                        style="width: 70%"
-                                                        aria-valuenow="70"
-                                                        aria-valuemin="0"
-                                                        aria-valuemax="100"
-                                                ></div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <span class="progress-span">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col content-center">
-                                    <p>3 days left</p>
-                                    <a class="btn" href="./votings.html">Enter</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="finance">Finance</div>
-                            <div class="row">
-                                <div class="col-8 line-right">
-                                    <p>Claim 5000 DCT for Samuel's work this</p>
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <div class="progress">
-                                                <div
-                                                        class="progress-bar"
-                                                        role="progressbar"
-                                                        style="width: 70%"
-                                                        aria-valuenow="70"
-                                                        aria-valuemin="0"
-                                                        aria-valuemax="100"
-                                                ></div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <span class="progress-span">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col content-center">
-                                    <p>3 days left</p>
-                                    <a class="btn" href="./votings.html">Enter</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="finance">Finance</div>
-                            <div class="row">
-                                <div class="col-8 line-right">
-                                    <p>Claim 5000 DCT for Samuel's work this</p>
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <div class="progress">
-                                                <div
-                                                        class="progress-bar"
-                                                        role="progressbar"
-                                                        style="width: 70%"
-                                                        aria-valuenow="70"
-                                                        aria-valuemin="0"
-                                                        aria-valuemax="100"
-                                                ></div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <span class="progress-span">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col content-center">
-                                    <p>3 days left</p>
-                                    <a class="btn" href="./votings.html">Enter</a>
-                                </div>
-                            </div>
-                        </li>
->>>>>>> e187c99f2f69ed236cbc6f2810cf149f2d31b045
                     </ul>
                 </div>
             </div>
@@ -445,9 +354,9 @@
 
 <script type="application/javascript">
 	onloadEvent.push(() => {
-<<<<<<< HEAD
 		contract.methods.getMissionList().call().then((e) => {
 			e.map((v, i) => {
+				if(v.State >= 2) return;
 				let a = i.toString().split('');
 				a = new Array(5 - a.length).concat(a);
 				for (let x = 0; x < 5; x++) {
@@ -456,7 +365,8 @@
 				let state = ['', 'Hiring', 'Received', 'Checking', 'Finished', 'Deleted']
 				let l = document.createElement('li');
 				let apply = function () {
-					contract.methods.takeMission(i).send({from: contract.defaultAccount}).then(() => {
+					console.log(contract.defaultAccount);
+					contract.methods.takeMission(i).send({from: contract.defaultAccount,gas: 6000000}).then(() => {
 						alert('successful');
 						window.location.reload();
 					}).catch(err => {
@@ -466,28 +376,6 @@
 				}
 
 				l.innerHTML += `
-=======
-		contract.methods.getMissionList().call().then((e)=>{
-            e.map((v,i)=>{
-            	let a = i.toString().split('');
-                a = new Array(5 - a.length).concat(a);
-                for(let x = 0;x<5;x++){
-                	if(a[x]===undefined) a[x]=0;
-                }
-                let state = ['','Hiring','Received','Checking','Finished','Deleted']
-	            let l = document.createElement('li');
-                let apply = function (){
-                	contract.methods.takeMission(i).send({from:contract.defaultAccount}).then(()=>{
-		                alert('successful');
-		                window.location.reload();
-                    }).catch(err=>{
-                		console.error(err);
-                		alert('failed');
-                    })
-                }
-
-            	l.innerHTML += `
->>>>>>> e187c99f2f69ed236cbc6f2810cf149f2d31b045
                     <div class="row">
                       <div class="col-5 line-right">
                         <h2># ${a.join('')} <span>${v.Title}</span></h2>
@@ -505,7 +393,6 @@
                       </div>
                     </div>
                   `;
-<<<<<<< HEAD
 				document.getElementById('bountyList').appendChild(l);
 				document.getElementById(`apply_${i}`).addEventListener('click', apply);
 
@@ -549,14 +436,6 @@
                 a(v);
 			})
 		})
-=======
-	            document.getElementById('bountyList').appendChild(l);
-                document.getElementById(`apply_${i}`).addEventListener('click',apply);
-
-            })
-        })
-
->>>>>>> e187c99f2f69ed236cbc6f2810cf149f2d31b045
 
 	})
 </script>
